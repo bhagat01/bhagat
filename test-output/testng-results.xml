@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78086" started-at="2018-04-25T18:49:45Z" finished-at="2018-04-25T18:51:03Z">
+    <groups>
+    </groups>
+    <test name="amazonsearch" duration-ms="48119" started-at="2018-04-25T18:49:45Z" finished-at="2018-04-25T18:50:33Z">
+      <class name="crossBrowser.Amazon">
+        <test-method status="PASS" signature="hpLaptop(java.lang.String)[pri:0, instance:crossBrowser.Amazon@42f93a98]" name="hpLaptop" is-config="true" duration-ms="25976" started-at="2018-04-25T18:49:45Z" finished-at="2018-04-25T18:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hpLaptop -->
+        <test-method status="PASS" signature="hp()[pri:0, instance:crossBrowser.Amazon@42f93a98]" name="hp" duration-ms="21722" started-at="2018-04-25T18:50:11Z" finished-at="2018-04-25T18:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hp -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:crossBrowser.Amazon@42f93a98]" name="afterTest" is-config="true" duration-ms="401" started-at="2018-04-25T18:50:33Z" finished-at="2018-04-25T18:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- crossBrowser.Amazon -->
+    </test> <!-- amazonsearch -->
+    <test name="amazonwebpage" duration-ms="78086" started-at="2018-04-25T18:49:45Z" finished-at="2018-04-25T18:51:03Z">
+      <class name="crossBrowser.Amazon">
+        <test-method status="PASS" signature="hpLaptop(java.lang.String)[pri:0, instance:crossBrowser.Amazon@305fd85d]" name="hpLaptop" is-config="true" duration-ms="61899" started-at="2018-04-25T18:49:45Z" finished-at="2018-04-25T18:50:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hpLaptop -->
+        <test-method status="PASS" signature="hp()[pri:0, instance:crossBrowser.Amazon@305fd85d]" name="hp" duration-ms="12679" started-at="2018-04-25T18:50:47Z" finished-at="2018-04-25T18:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hp -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:crossBrowser.Amazon@305fd85d]" name="afterTest" is-config="true" duration-ms="3501" started-at="2018-04-25T18:51:00Z" finished-at="2018-04-25T18:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- crossBrowser.Amazon -->
+    </test> <!-- amazonwebpage -->
+  </suite> <!-- Suite -->
+</testng-results>
